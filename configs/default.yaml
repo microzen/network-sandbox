@@ -1,0 +1,11 @@
+sandbox:
+  name: "my-first-sandbox"
+
+mininet:
+  topology: "single,3"
+  switch: "ovsbr"
+  controller: "default"
+
+  mac: true
+  cli: true
+  cleanup: false
